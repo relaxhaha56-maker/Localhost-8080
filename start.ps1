@@ -9,7 +9,7 @@ $Version = "1.0"
 function Show-Auth {
     Clear-Host
     Write-Host "==============================" -ForegroundColor Cyan
-    Write-Host "    BASX DLL Power Shell v$Version" -ForegroundColor Cyan
+    Write-Host "    BASX DLL Power-Shell v$Version" -ForegroundColor Cyan
     Write-Host "==============================" -ForegroundColor Cyan
     
     $initUrl = "https://keyauth.win/api/1.2/?type=init&name=$Name&ownerid=$OwnerID&secret=$Secret&version=$Version"
